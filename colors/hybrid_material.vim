@@ -91,7 +91,7 @@ let s:gui_line       = "#212D32"
 let s:gui_comment    = "#707880"
 
 let s:palette.gui.background = { 'dark' : s:gui_background , 'light' : "#e4e4e4" }
-let s:palette.gui.foreground = { 'dark' : "#c5c8c6"        , 'light' : "#000000" }
+let s:palette.gui.foreground = { 'dark' : s:gui_background , 'light' : "#000000" }
 let s:palette.gui.selection  = { 'dark' : s:gui_selection  , 'light' : "#bcbcbc" }
 let s:palette.gui.line       = { 'dark' : s:gui_line       , 'light' : "#d0d0d0" }
 let s:palette.gui.comment    = { 'dark' : s:gui_comment    , 'light' : "#5f5f5f" }
